@@ -46,7 +46,7 @@ function App() {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-4">
-      <h1 className="text-3xl font-bold text-purple-500 mb-6">💬 Chat with a Mentor</h1>
+      <h1 className="text-3xl font-bold text-purple-500 mb-6">💬 Chat with Me</h1>
 
       {chatActive ? (
         <div className="w-full max-w-md bg-white rounded-lg shadow-lg flex flex-col h-[600px]">
