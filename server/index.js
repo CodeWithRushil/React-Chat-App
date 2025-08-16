@@ -8,7 +8,7 @@ const {Server}=require('socket.io');
 app.use(cors({
   origin: [
     "http://localhost:5173",               
-    "https://react-chat-app-q6tt.vercel.app"
+    "https://react-chat-app-rushil.vercel.app"
   ],
   methods: ["GET", "POST"]
 }));
@@ -17,7 +17,7 @@ const io = new Server(server, {
   cors: {
     origin: [
       "http://localhost:5173", 
-      "https://react-chat-app-q6tt.vercel.app"
+      "https://react-chat-app-rushil.vercel.app"
     ],
     methods: ["GET", "POST"]
   }
