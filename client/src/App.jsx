@@ -3,7 +3,7 @@ import "./App.css";
 import io from "socket.io-client";
 
 // const socket = io("http://localhost:5000");
-const socket = io("https://react-chat-app-two-delta.vercel.app");
+const socket = io("https://react-chat-app-urj4.onrender.com/");
 
 function App() {
   const [username, setUsername] = useState("");
